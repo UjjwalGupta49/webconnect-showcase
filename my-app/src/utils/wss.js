@@ -4,7 +4,7 @@ import store from "../store/store";
 import * as webRTCHandler from "./webRTCHandler";
 import { appendNewMessageToChatHistory } from "./directMessages";
 
-const SERVER = "http://webconnect.onrender.com:10000/";
+const SERVER = "https://webconnect.onrender.com:10000/";
 
 let socket = null;
 
