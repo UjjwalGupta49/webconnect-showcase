@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const serverApi = "http://localhost:5002/api";
+const serverApi = "http://webconnect.onrender.com:1000/api";
 
 export const getRoomExists = async (roomId) => {
   const response = await axios.get(`${serverApi}/room-exists/${roomId}`);
